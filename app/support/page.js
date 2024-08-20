@@ -1,12 +1,8 @@
-// pages/Support.js
-
 'use client'
 import { useUser } from '@auth0/nextjs-auth0/client';
 import { Box, Button, Stack, TextField, Typography, Link } from '@mui/material';
 import { useState, useRef, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import Image from 'next/image';
-
 const customStyle = {
   backgroundImage: `url(https://media.istockphoto.com/id/1494073860/photo/a-i-chat-with-ai-artificial-intelligence-man-using-a-smartphone-chatting-with-an-intelligent.jpg?s=2048x2048&w=is&k=20&c=VmU3_CE27JvGhikhEITNQfS6Cj7-hJA48KN_mHVGapE=)`,
   backgroundSize: 'cover',

@@ -1,8 +1,9 @@
 'use client';
-import React, { useEffect } from 'react';
-import { Box, Typography, Button, Stack, Link, AppBar } from '@mui/material';
+import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useUser } from '@auth0/nextjs-auth0/client';
+import { Box, Typography, Stack, Link } from '@mui/material';
+
 
 const customStyle = {
   backgroundImage: `url(https://media.istockphoto.com/id/1494073860/photo/a-i-chat-with-ai-artificial-intelligence-man-using-a-smartphone-chatting-with-an-intelligent.jpg?s=2048x2048&w=is&k=20&c=VmU3_CE27JvGhikhEITNQfS6Cj7-hJA48KN_mHVGapE=)`,
